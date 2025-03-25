@@ -1,0 +1,181 @@
+.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Waroenk Ferazzio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/main.js" defer></script>
+    <script src="js/animations.js" defer></script>
+</head>
+<body>
+    <div class="batik-pattern top-pattern"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Waroenk Ferazzio</h1>
+                <p class="tagline">Authentic Indonesian Cuisine</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html" class="active">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h2 class="fade-in">Hubungi <span>Kami</span></h2>
+                <p class="fade-in">Kami senang mendengar dari Anda, jangan ragu untuk menghubungi kami</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info slide-right">
+                        <h3 class="section-title">Informasi Kontak</h3>
+                        
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Alamat</h4>
+                                <p>Jl. Nusantara No. 123<br>Surabaya, Indonesia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Telepon</h4>
+                                <p>+62 812 3456 7890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Email</h4>
+                                <p>info@warungFerazzio.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Jam Buka</h4>
+                                <p>Senin - Jumat: 10:00 - 22:00<br>
+                                Sabtu - Minggu: 11:00 - 23:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-contact">
+                            <h4>Ikuti Kami</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrap slide-left">
+                        <h3 class="section-title">Kirim Pesan</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nama</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telepon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="primary-btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map-section">
+            <div class="container">
+                <h3 class="section-title">Lokasi Kami</h3>
+                <div class="map-container fade-in">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5952067807125!2d112.78273607392834!3d-7.290510671470135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa1323221a93%3A0x306c3c99adedb258!2sSurabaya%2C%20Kota%20SBY%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1710429022407!5m2!1sid!2sid" 
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Waroenk Ferazzio</h3>
+                    <p>Jl. Nusantara No. 123<br>Surabaya, Indonesia</p>
+                    <p>Tel: +62 812 3456 7890</p>
+                    <p>Email: info@warungFerazzio.com</p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Jam Buka</h4>
+                    <p>Senin - Jumat: 10:00 - 22:00</p>
+                    <p>Sabtu - Minggu: 11:00 - 23:00</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Waroenk Ferazzio. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="batik-pattern bottom-pattern"></div>
+</body>
+</html>
